@@ -1,3 +1,5 @@
+github手动上传文件功能有点鸡肋，这两天会用git上传文件和写详细文档。
+
 # LangHelper
 Striving to create a great assistant with full functions of learning languages by ChatGPT, TTS, STT and other awesome AI models, supports talking, speaking assessment, memorizing words with contexts, Listening test, so on.
 # Roadmap
