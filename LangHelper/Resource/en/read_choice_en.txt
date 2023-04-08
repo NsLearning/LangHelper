@@ -1,0 +1,8 @@
+[choice]
+1. Snakes.
+2. Children.
+3. Cats.
+[keywords]
+cats
+[question]
+What did the woman dislike?

@@ -1,0 +1,43 @@
+.chat-logo {
+  text-align: center;
+  height: 48px;
+
+  img {
+    width: 44px;
+    height: 44px;
+    margin-top: 4px;
+  }
+}
+
+.chat-info {
+  text-align: center;
+  font-weight: bold;
+
+  .ant-tag {
+    margin: 2px;
+  }
+}
+
+.ant-layout-sider-trigger {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.ant-layout-sider-children {
+  overflow-y: auto;
+}
+
+.chat-container {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.ant-menu {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.ant-layout-footer {
+  color: #666 !important;
+  opacity: 0.7;
+}
