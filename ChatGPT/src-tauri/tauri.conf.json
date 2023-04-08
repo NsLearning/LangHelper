@@ -1,0 +1,97 @@
+{
+  "build": {
+    "beforeDevCommand": "npm run dev:fe",
+    "beforeBuildCommand": "npm run build:fe",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "ChatGPT",
+    "version": "0.12.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "globalShortcut": {
+        "all": true
+      },
+      "fs": {
+        "all": false,
+        "readFile": true,
+        "writeFile": true,
+        "readDir": true,
+        "createDir": true,
+        "exists": true,
+        "removeFile": true,
+        "removeDir": true,
+        "scope": [
+          "$HOME/.chatgpt/**"
+        ]
+      },
+      "path": {
+        "all": true
+      },
+      "os": {
+        "all": true
+      },
+      "process": {
+        "all": true,
+        "exit": true,
+        "relaunch": true,
+        "relaunchDangerousAllowSymlinkMacos": true
+      }
+    },
+    "systemTray": {
+      "iconPath": "icons/tray-icon.png",
+      "iconAsTemplate": true,
+      "menuOnLeftClick": false
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "identifier": "com.lencx.chatgpt",
+      "longDescription": "ChatGPT Desktop Application",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "shortDescription": "ChatGPT",
+      "targets": "all",
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": "",
+        "webviewInstallMode": {
+          "silent": true,
+          "type": "embedBootstrapper"
+        }
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": true,
+      "dialog": false,
+      "endpoints": [
+        "https://lencx.github.io/ChatGPT/install.json"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEIxMjY4OUI5MTVFNjBEMDUKUldRRkRlWVZ1WWttc1NGWEE0RFNSb0RqdnhsekRJZTkwK2hVLzhBZTZnaHExSEZ1ZEdzWkpXTHkK"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+ID  AGE  GENDER  ACCENTS  REGION COMMENTS 
+p225  23  F    English    Southern  England
+p226  22  M    English    Surrey
+p227  38  M    English    Cumbria
+p228  22  F    English    Southern  England
+p229  23  F    English    Southern  England
+p230  22  F    English    Stockton-on-tees
+p231  23  F    English    Southern  England
+p232  23  M    English    Southern  England
+p233  23  F    English    Staffordshire
+p234  22  F    Scottish  West  Dumfries
+p236  23  F    English    Manchester
+p237  22  M    Scottish  Fife
+p238  22  F    NorthernIrish  Belfast
+p239  22  F    English    SW  England
+p240  21  F    English    Southern  England
+p241  21  M    Scottish  Perth
+p243  22  M    English    London
+p244  22  F    English    Manchester
+p245  25  M    Irish  Dublin
+p246  22  M    Scottish  Selkirk
+p247  22  M    Scottish  Argyll
+p248  23  F    Indian  
+p249  22  F    Scottish  Aberdeen
+p250  22  F    English    SE  England
+p251  26  M    Indian  
+p252  22  M    Scottish  Edinburgh
+p253  22  F    Welsh  Cardiff
+p254  21  M    English    Surrey
+p255  19  M    Scottish  Galloway
+p256  24  M    English    Birmingham
+p257  24  F    English    Southern  England
+p258  22  M    English    Southern  England
+p259  23  M    English    Nottingham
+p260  21  M    Scottish  Orkney
+p261  26  F    NorthernIrish  Belfast
+p262  23  F    Scottish  Edinburgh
+p263  22  M    Scottish  Aberdeen
+p264  23  F    Scottish  West  Lothian
+p265  23  F    Scottish  Ross
+p266  22  F    Irish  Athlone
+p267  23  F    English    Yorkshire
+p268  23  F    English    Southern  England
+p269  20  F    English    Newcastle
+p270  21  M    English    Yorkshire
+p271  19  M    Scottish  Fife
+p272  23  M    Scottish  Edinburgh
+p273  23  M    English    Suffolk
+p274  22  M    English    Essex
+p275  23  M    Scottish  Midlothian
+p276  24  F    English    Oxford
+p277  23  F    English    NE  England
+p278  22  M    English    Cheshire
+p279  23  M    English    Leicester
+p280  25  F    Unknown  France (mic2 files unavailable)  
+p281  29  M    Scottish  Edinburgh
+p282  23  F    English    Newcastle
+p283  24  F    Irish  Cork
+p284  20  M    Scottish  Fife
+p285  21  M    Scottish  Edinburgh
+p286  23  M    English    Newcastle
+p287  23  M    English    York
+p288  22  F    Irish  Dublin
+p292  23  M    NorthernIrish  Belfast
+p293  22  F    NorthernIrish  Belfast
+p294  33  F    American  San  Francisco
+p295  23  F    Irish  Dublin
+p297  20  F    American  New  York
+p298  19  M    Irish  Tipperary
+p299  25  F    American  California
+p300  23  F    American  California
+p301  23  F    American  North  Carolina
+p302  20  M    Canadian  Montreal
+p303  24  F    Canadian  Toronto
+p304  22  M    NorthernIrish  Belfast
+p305  19  F    American  Philadelphia
+p306  21  F    American  New  York
+p307  23  F    Canadian  Ontario
+p308  18  F    American  Alabama
+p310  21  F    American  Tennessee
+p311  21  M    American  Iowa
+p312  19  F    Canadian  Hamilton
+p313  24  F    Irish  County  Down
+p314  26  F    SouthAfrican  Cape  Town
+p315  18  M    American  New  England  (Text and mic2 files unavailable) 
+p316  20  M    Canadian  Alberta
+p317  23  F    Canadian  Hamilton
+p318  32  F    American  Napa
+p323  19  F    SouthAfrican  Pretoria
+p326  26  M    Australian  English  Sydney
+p329  23  F    American  
+p330  26  F    American  
+p333  19  F    American  Indiana
+p334  18  M    American  Chicago
+p335  25  F    NewZealand  English    
+p336  18  F    SouthAfrican  Johannesburg
+p339  21  F    American  Pennsylvania
+p340  18  F    Irish  Dublin
+p341  26  F    American  Ohio
+p343  27  F    Canadian  Alberta
+p345  22  M    American  Florida
+p347  26  M    SouthAfrican  Johannesburg
+p351  21  F    NorthernIrish  Derry
+p360  19  M    American  New  Jersey
+p361  19  F    American  New  Jersey
+p362  29  F    American  
+p363  22  M    Canadian  Toronto
+p364  23  M    Irish  Donegal
+p374  28  M    Australian  English  
+p376  22  M    Indian
+s5    22  F    British (new speaker, more data would be released for training a speaker-dependent model) 
