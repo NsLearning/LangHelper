@@ -16,17 +16,21 @@
 ## 📦 Install
 ### windows
 
-  [ChatGPT and LangHelper](https://github.com/NsLearning/LangHelper/releases) + [espeak-ng x86, 一直默认安装即可](https://github.com/espeak-ng/espeak-ng/releases/tag/1.51)
+  [ChatGPT and LangHelper](https://github.com/NsLearning/LangHelper/releases) + [espeak-ng x86](https://github.com/espeak-ng/espeak-ng/releases/tag/1.51). ChatGPT and LangHelper 都是免安装的，espeak-ng 一路默认安装即可。
+  
   目前要使用AI发音得装ChatGPT desktop for Langhelper + LangHelper + espeak-ng，因为跑AI用到pytorch一些库比较大，放弃了把python程序打包成bin文件集成到ChatGPT desktop for Langhelper， espeak-ng是语音合成的必须依赖。
 - ChatGPT desktop for Langhelper(改版后的chatgpt桌面应用)， windows 4月初更新那版好像会查杀，允许就好（可以查源代码, 没有任何其他有害脚本注入）。
 - LangHelper（AI发音及其他辅助程序, LangHelper文件下的python程序)
 - espeak-ng (开源的文本转语音库)
 
 ### mac
-- need help (有没有开发者帮忙在mac上测试一下)
+- on test.
 
 
 # Time
 1. Need more time to let users apply it easily and fix bugs, thanks for your patience.
 2. Follow my channel to know the latest update.https://space.bilibili.com/33672855/video
 3. Welcome all developers who interested in this project join me.
+
+# 交流群
+![image](https://github.com/NsLearning/LangHelper/blob/main/%E4%BA%A4%E6%B5%81%E7%BE%A4.jpg)
