@@ -16,7 +16,7 @@
 ## 📦 Install
 ### windows
 
-  [ChatGPT and LangHelper](https://github.com/NsLearning/LangHelper/releases) + [espeak-ng 装x86版的](https://github.com/espeak-ng/espeak-ng/releases/tag/1.51). ChatGPT and LangHelper 都是免安装的，espeak-ng 一路默认安装即可。[安装教程](https://www.bilibili.com/video/BV1f24y1c7qm/?vd_source=21f2f45d40a5b4fec0f1ea075e50b356)
+  [ChatGPT and LangHelper](https://github.com/NsLearning/LangHelper/releases) + [espeak-ng 装x86版的](https://github.com/espeak-ng/espeak-ng/releases/tag/1.51). ChatGPT and LangHelper 都是免安装的，espeak-ng 一路默认安装即可。[使用教程](https://www.bilibili.com/video/BV1f24y1c7qm/?vd_source=21f2f45d40a5b4fec0f1ea075e50b356)
   
   目前要使用AI发音得装ChatGPT desktop for Langhelper + LangHelper + espeak-ng，因为跑AI用到pytorch一些库比较大，放弃了把python程序打包成bin文件集成到ChatGPT desktop for Langhelper， espeak-ng是语音合成的必须依赖。
 - ChatGPT desktop for Langhelper(改版后的chatgpt桌面应用)， windows 4月初更新那版好像会查杀，允许就好（可以查源代码, 没有任何其他有害脚本注入）。
@@ -31,6 +31,11 @@
 1. Need more time to let users apply it easily and fix bugs, thanks for your patience.
 2. Follow my channel to know the latest update.https://space.bilibili.com/33672855/video
 3. Welcome all developers who interested in this project join me.
+
+# issues
+1. could't find ffmpeg or avconv - defaulting to ffmpeg, but may not work. 可能些许win版本需要依赖ffmpeg, 安装即可，记得配置环境变量，下一个版本会尝试解决这个问题。
+
+2. somthing wrong when generate audio. 进入cmd 输入指令 espeak-ng -h 看是否安装espeak-ng 成功，大部分使用x86版成功的，也有使用64版成功的，这一点我也很疑惑。
 
 # 交流群
 ![image](https://github.com/NsLearning/LangHelper/blob/main/%E4%BA%A4%E6%B5%81%E7%BE%A4.jpg)
