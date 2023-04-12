@@ -32,10 +32,12 @@
 2. Follow my channel to know the latest update.https://space.bilibili.com/33672855/video
 3. Welcome all developers who interested in this project join me.
 
-# issues
+# Issues
 1. could't find ffmpeg or avconv - defaulting to ffmpeg, but may not work. 可能些许win版本需要依赖ffmpeg, 安装即可，记得配置环境变量，下一个版本会尝试解决这个问题。
 
 2. somthing wrong when generate audio. 进入cmd 输入指令 espeak-ng -h 看是否安装espeak-ng 成功，大部分使用x86版成功的，也有使用64版成功的，这一点我也很疑惑。
+
+3. espeak-ng -h 成功还出现somthing wrong when generate audio. 等我下一版打印具体出错信息方便定位问题。
 
 # 交流群
 ![image](https://github.com/NsLearning/LangHelper/blob/main/%E4%BA%A4%E6%B5%81%E7%BE%A4.jpg)
