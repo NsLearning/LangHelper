@@ -45,4 +45,4 @@
 3. espeak-ng -h 成功还出现somthing wrong when generate audio. 等我下一版打印具体出错信息方便定位问题。
 
 # 交流群
-![image](https://github.com/NsLearning/LangHelper/blob/main/%E4%BA%A4%E6%B5%81%E7%BE%A4.jpg)
+![image](https://github.com/NsLearning/LangHelper/blob/main/langhelper.jpg)
