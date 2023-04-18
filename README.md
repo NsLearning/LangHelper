@@ -1,9 +1,9 @@
-# Crucial
+## Crucial
 
 - 大家要是觉得这个应用实用，麻烦点个star支持一下，谢谢！
 
 
-# ✨ Features / 功能
+## ✨ Features / 功能
 1. talk to ChatGPT / 口语对话
 
     - support different speech types, web, AI with hundreds accents (VCTK corpus), will support azure, iflytek. 目前支持web发音（和知名插件一样的机械音），100多种更加自然的AI口音，将支持azure及科大讯飞双语发音，可根据喜好自由选择。[100多种口音演示](https://www.bilibili.com/video/BV1Q84y1P7nK/?spm_id_from=333.999.0.0&vd_source=21f2f45d40a5b4fec0f1ea075e50b356)
@@ -23,8 +23,8 @@
 
 5. open to receive more ideas to perfect the language helper. / 期待有更多的建议去完善这个语言助手。
 
-# 📦 Install
-## windows
+## 📦 Install
+### windows
 
   [ChatGPT and LangHelper](https://github.com/NsLearning/LangHelper/releases/tag/V0.01.1) + [espeak-ng 装x86版的](https://github.com/espeak-ng/espeak-ng/releases/tag/1.51). ChatGPT and LangHelper 都是免安装的，espeak-ng 一路默认安装即可。[使用教程](https://www.bilibili.com/video/BV1f24y1c7qm/?vd_source=21f2f45d40a5b4fec0f1ea075e50b356)
   
@@ -33,11 +33,11 @@
 - LangHelper（AI发音及其他辅助程序, LangHelper文件下的python程序)
 - espeak-ng (开源的文本转语音库)
 
-## mac
+### Mac
 - on test.
 
 
-# Time
+## Time
 1. Need more time to let users apply it easily and fix bugs, thanks for your patience.
 2. Follow my channel to know the latest update.https://space.bilibili.com/33672855/video
 3. Welcome all developers who interested in this project join me.
@@ -49,5 +49,5 @@
 
 3. espeak-ng -h 成功还出现somthing wrong when generate audio. 等我下一版打印具体出错信息方便定位问题。
 
-# 交流群
+## 交流群
 ![image](https://github.com/NsLearning/LangHelper/blob/main/langhelper.jpg)
