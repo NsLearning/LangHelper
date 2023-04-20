@@ -36,7 +36,7 @@
 - espeak-ng (开源的文本转语音库)
 
 ### Mac
-- on test.
+- on test, need help!!!
 
 
 ## Time
