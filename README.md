@@ -10,6 +10,8 @@
 
     - support two recognition tech, web and iflytek. 支持原声web识别（如果仅识别英文足够了），科大讯飞支持同时双语识别。[双语识别演示](https://www.bilibili.com/video/BV11L411C7G2/?spm_id_from=333.999.0.0&vd_source=21f2f45d40a5b4fec0f1ea075e50b356)
     
+    - talk to any celebrities, such as Obama, Taylor, Downey...[奥巴马、泰勒、唐尼实时语音演示](https://www.bilibili.com/video/BV1Am4y127rp/)
+    
     - will offer interface for loading your TTS model. 将支持加载自训练的任意口音模型（待我搞清楚vits，将出个通用的软件及教程去训练定制口音模型）。
     
 2. Speaking Assessment / 发音评分
