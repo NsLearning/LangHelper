@@ -16,7 +16,8 @@
     
 2. Speaking Assessment / 发音评分
 
-     integrate two Assessment API, speechsuper and iflytek now, open to get better algorithms to perfect the feature for IELTS/TOEFL test. 目前集成了两种评分接口，可结合ChatGPT进行雅思托福口语测试，期待有更好的算法去完善这个功能。[口语评分演示](https://www.bilibili.com/video/BV1Ch41137en/?spm_id_from=333.999.0.0&vd_source=21f2f45d40a5b4fec0f1ea075e50b356)
+     integrate two Assessment API, speechsuper and iflytek now, open to get better algorithms to perfect the feature for IELTS/TOEFL test. 目前集成了两种评分接口，可结合ChatGPT进行雅思托福口语测试，期待有更好的算法去完善这个功能。[口语评分演示](https://www.bilibili.com/video/BV1Ch41137en/?spm_id_from=333.999.0.0&vd_source=21f2f45d40a5b4fec0f1ea075e50b356) + [IELTS spoken test prompts](#ielts)
+     
 3. Memorize Words with context / 语境记词
 
    Add new words to your own dictionary, when you talk with the ChatGPT meeting the new words, web will mark it with highlight color for reminding you unless you mark it as known.  可以把生词加入生词本，之后和chatGPT对话再遇到这个生词，网页会标注明显的颜色，熟悉之后把它标熟便不会再出现生词提示。[语境记词演示，03:45开始](https://www.bilibili.com/video/BV1nj411c7zi/?spm_id_from=333.999.0.0&vd_source=21f2f45d40a5b4fec0f1ea075e50b356)
@@ -68,6 +69,10 @@ setting -> LangHelper 下设置语音相关功能， 没有配置API，就不要
      > Real-time factor: 0.6285610240559246
 
 3. 语音识别，需先点一次speech recognition, 待不再需要识别后再点一次结束识别。
+
+## ielts
+How to set up prompts? Preferences -> control center ->Language Model -> User Custom ->Add model, add your custom prompts, here is my presetting ITELTS prompt for reference:
+ > I want you to ask me some questions for simulating IELTS speaking test, non offical but give score of reference,when you ask me a question,  I'll respond you my spoken text and  prounciation scores which come from speech recognition and assessment tech, please remeber that you should ask me question one by one  it means that you should offer another question after I give you response text which including prouncation scores, do not give questions one time because I do not want to respond it by one time, after all questions finished , you can combine the score to assess my answer, please give me the final score of IELTS speaking test.so  let's start first question.
 
 ## 交流群
 ![image](https://github.com/NsLearning/LangHelper/blob/main/langhelper.jpg)
