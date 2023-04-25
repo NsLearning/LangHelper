@@ -56,7 +56,7 @@
 1. 解压压缩包，一个Langhelper文件夹（内含langhelper.exe），一个chatgpt.exe, 分别打开。langhelper 会等待chatgpt配置完成后才能工作，chatgpt在-> preferences -> control center ->
 setting -> LangHelper 下设置语音相关功能， 没有配置API，就不要选其他的speech type 和recognition，设置完成后点击submit后, 有个restart提示点击yes. 这是langhelper窗口会出现Complete init -> start conversation，表示初始化完成。
 
-2. 对话不能正常AI发音，先在setting -> LangHelper->Audition text 同行点击try测试是否能发音，文本为空则会默认合成"you are  gorgeous, i love". 看langhlper界面是什么提示，error:Obama, 就是表示Obama口音不能用，其他就是可能环境没配置好。入群发问请给出详细的错误截图信息。以下为合成How can I assist you today? 正常信息提示：
+2. 对话不能正常AI发音，先在setting -> LangHelper->Audition text 同行点击try测试是否能发音，文本为空则会默认合成"you are  gorgeous, i love you". 看langhlper界面是什么提示，error:Obama, 就是表示Obama口音不能用，其他就是可能环境没配置好。入群发问请给出详细的错误截图信息。以下为合成How can I assist you today? 正常信息提示：
      > Text splitted to sentences.
     ['How can I assist you today?']
     Hello! p241
