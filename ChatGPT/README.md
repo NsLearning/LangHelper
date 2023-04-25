@@ -1,1 +1,1 @@
-改编自 [ChatGPT桌面版](https://github.com/lencx/ChatGPT)
+adapted from [ChatGPT桌面版](https://github.com/lencx/ChatGPT)
