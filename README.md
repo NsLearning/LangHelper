@@ -28,7 +28,7 @@
 ## 📦 Install
 ### windows
 
-  [ChatGPT and LangHelper](https://github.com/NsLearning/LangHelper/releases/tag/V0.01.1) + [espeak-ng 装x86版的](https://github.com/espeak-ng/espeak-ng/releases/tag/1.51). ChatGPT and LangHelper 都是免安装的，espeak-ng 一路默认安装即可。[使用教程](https://www.bilibili.com/video/BV1f24y1c7qm/?vd_source=21f2f45d40a5b4fec0f1ea075e50b356)
+  [ChatGPT and LangHelper](https://github.com/NsLearning/LangHelper/releases/tag/V0.01.1) + [espeak-ng 装x86版的](https://github.com/espeak-ng/espeak-ng/releases/tag/1.51). ChatGPT and LangHelper 都是免安装的，espeak-ng 一路默认安装即可。[视频教程](https://www.bilibili.com/video/BV1f24y1c7qm/?vd_source=21f2f45d40a5b4fec0f1ea075e50b356) + [文字教程及注意事项](#instructions)
   
   目前要使用AI发音得装ChatGPT desktop for Langhelper + LangHelper + espeak-ng，因为跑AI用到pytorch一些库比较大，放弃了把python程序打包成bin文件集成到ChatGPT desktop for Langhelper， espeak-ng是语音合成的必须依赖。
 - ChatGPT desktop for Langhelper(改版后的chatgpt桌面应用)， windows 4月初更新那版好像会查杀，允许就好（可以查源代码, 没有任何其他有害脚本注入）。
@@ -44,12 +44,30 @@
 2. Follow my channel to know the latest update.https://space.bilibili.com/33672855/video
 3. Welcome all developers who interested in this project join me.
 
-# Issues
+## Issues
 1. could't find ffmpeg or avconv - defaulting to ffmpeg, but may not work. 可能些许win版本需要依赖ffmpeg, 安装即可，记得配置环境变量，下一个版本会尝试解决这个问题。
 
 2. somthing wrong when generate audio. 进入cmd 输入指令 espeak-ng -h 看是否安装espeak-ng 成功，大部分使用x86版成功的，也有使用64版成功的，这一点我也很疑惑。
 
 3. espeak-ng -h 成功还出现somthing wrong when generate audio. 等我下一版打印具体出错信息方便定位问题。
+
+## instructions
+
+1. 解压压缩包，一个Langhelper文件夹（内含langhelper.exe），一个chatgpt.exe, 分别打开。langhelper 会等待chatgpt配置完成后才能工作，chatgpt在-> preferences -> control center ->
+setting -> LangHelper 下设置语音相关功能， 没有配置API，就不要选其他的speech type 和recognition，设置完成后点击submit后, 有个restart提示点击yes. 这是langhelper窗口会出现Complete init -> start conversation，表示初始化完成。
+
+2. 对话不能正常AI发音，先在setting -> LangHelper->Audition text 同行点击try测试是否能发音，文本为空则会默认合成"you are  gorgeous, i love". 看langhlper界面是什么提示，error:Obama, 就是表示Obama口音不能用，其他就是可能环境没配置好。入群发问请给出详细的错误截图信息。以下为合成How can I assist you today? 正常信息提示：
+     > Text splitted to sentences.
+    ['How can I assist you today?']
+    Hello! p241
+     > Text splitted to sentences.
+    ['Hello!']
+     > Processing time: 0.8514664173126221
+     > Real-time factor: 0.5273829916220033
+     > Processing time: 0.6864285469055176
+     > Real-time factor: 0.6285610240559246
+
+3. 语音识别，需先点一次speech recognition, 待不再需要识别后再点一次结束识别。
 
 ## 交流群
 ![image](https://github.com/NsLearning/LangHelper/blob/main/langhelper.jpg)
