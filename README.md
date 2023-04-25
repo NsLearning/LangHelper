@@ -12,7 +12,7 @@
     
     - talk to any celebrities, such as Obama, Taylor, Downey...[奥巴马、泰勒、唐尼实时语音演示](https://www.bilibili.com/video/BV1Am4y127rp/)
     
-    - will offer interface for loading your TTS model. 将支持加载自训练的任意口音模型（待我搞清楚vits，将出个通用的软件及教程去训练定制口音模型）。
+    - will offer interface for loading your TTS model. 将支持加载自训练的任意口音模型（将出个通用的软件及教程去训练定制口音模型）。
     
 2. Speaking Assessment / 发音评分
 
