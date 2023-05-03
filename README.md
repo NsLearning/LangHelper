@@ -1,7 +1,8 @@
 ## Crucial
 
 - 大家要是觉得这个应用实用，麻烦点个star支持一下，谢谢！
-
+- 即将把该项目移植到极客湾AI数字人中，同时接入开源的语言大模型Vicuna，alpasta,chatglm，完全免费本地化，免受chatgpt各种限制。
+- 已找到效果不错的同时双语识别开源项目，也在训练能够同时说中英文的vits模型。
 
 ## ✨ Features / 功能
 1. talk to ChatGPT / 口语对话
@@ -75,4 +76,5 @@ How to set up prompts? Preferences -> control center ->Language Model -> User Cu
  > I want you to ask me some questions for simulating IELTS speaking test, non offical but give score of reference,when you ask me a question,  I'll respond you my spoken text and  prounciation scores which come from speech recognition and assessment tech, please remeber that you should ask me question one by one  it means that you should offer another question after I give you response text which including prouncation scores, do not give questions one time because I do not want to respond it by one time, after all questions finished , you can combine the score to assess my answer, please give me the final score of IELTS speaking test.so  let's start first question.
 
 ## 交流群
+微信群已满，有需要可以加qq群：818614997
 ![image](https://github.com/NsLearning/LangHelper/blob/main/langhelper.jpg)
