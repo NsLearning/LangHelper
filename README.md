@@ -76,5 +76,4 @@ How to set up prompts? Preferences -> control center ->Language Model -> User Cu
  > I want you to ask me some questions for simulating IELTS speaking test, non offical but give score of reference,when you ask me a question,  I'll respond you my spoken text and  prounciation scores which come from speech recognition and assessment tech, please remeber that you should ask me question one by one  it means that you should offer another question after I give you response text which including prouncation scores, do not give questions one time because I do not want to respond it by one time, after all questions finished , you can combine the score to assess my answer, please give me the final score of IELTS speaking test.so  let's start first question.
 
 ## 交流群
-微信群已满，有需要可以加qq群：818614997
-![image](https://github.com/NsLearning/LangHelper/blob/main/langhelper.jpg)
+微信群已满200没法扫码，有问题可以加qq群：818614997,想进微信群的可以从QQ群私戳我。
