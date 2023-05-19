@@ -9,8 +9,9 @@
     
     - talk to any celebrities, such as Obama, Taylor, Downey...[奥巴马、霉霉、小罗伯特唐尼实时语音演示](https://www.bilibili.com/video/BV1Am4y127rp/)
     
-    - will offer interface for loading your TTS model. 将支持加载自训练的任意口音模型（将出个通用的软件及教程去训练定制口音模型）。
-    
+    - will offer interface for loading your TTS model.
+
+
 2. Speaking Assessment / 发音评分
 
      integrate two Assessment API, speechsuper and iflytek now, open to get better algorithms to perfect the feature for IELTS/TOEFL test. [口语评分演示](https://www.bilibili.com/video/BV1Ch41137en/?spm_id_from=333.999.0.0&vd_source=21f2f45d40a5b4fec0f1ea075e50b356) + [IELTS spoken test prompts](#ielts)
